@@ -39,17 +39,20 @@ const translations: Translations = {
   "properties.area": { tr: "m²", en: "m²", ar: "م²" },
   "properties.details": { tr: "Detaylar", en: "Details", ar: "التفاصيل" },
 
-  // About
-  "about.title": { tr: "Neden Bizi Tercih Etmelisiniz?", en: "Why Choose Us?", ar: "لماذا تختارنا؟" },
-  "about.subtitle": { tr: "20 yılı aşkın deneyimle size en iyi hizmeti sunuyoruz.", en: "We provide the best service with over 20 years of experience.", ar: "نقدم لك أفضل خدمة بخبرة تزيد عن 20 عامًا." },
-  "about.stat1.number": { tr: "500+", en: "500+", ar: "+500" },
-  "about.stat1.label": { tr: "Mutlu Müşteri", en: "Happy Clients", ar: "عملاء سعداء" },
-  "about.stat2.number": { tr: "1200+", en: "1200+", ar: "+1200" },
-  "about.stat2.label": { tr: "Satılan Mülk", en: "Properties Sold", ar: "عقارات مباعة" },
-  "about.stat3.number": { tr: "20+", en: "20+", ar: "+20" },
-  "about.stat3.label": { tr: "Yıllık Deneyim", en: "Years Experience", ar: "سنوات خبرة" },
-  "about.stat4.number": { tr: "15", en: "15", ar: "15" },
-  "about.stat4.label": { tr: "Uzman Ekip", en: "Expert Team", ar: "فريق متخصص" },
+  // Visa Consulting
+  "visa.title": { tr: "Vize Danışmanlığı", en: "Visa Consulting", ar: "استشارات التأشيرات" },
+  "visa.subtitle": { tr: "Tüm vize süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your visa processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات التأشيرات الخاصة بك." },
+  "visa.tourist.title": { tr: "Turist Vizesi", en: "Tourist Visa", ar: "تأشيرة سياحية" },
+  "visa.tourist.desc": { tr: "Seyahat planlarınız için hızlı ve kolay turist vizesi başvuru desteği.", en: "Fast and easy tourist visa application support for your travel plans.", ar: "دعم سريع وسهل لطلبات تأشيرة السياحة لخطط سفرك." },
+  "visa.work.title": { tr: "Çalışma Vizesi", en: "Work Visa", ar: "تأشيرة عمل" },
+  "visa.work.desc": { tr: "Çalışma izni ve vize başvuru süreçlerinde uzman rehberlik.", en: "Expert guidance on work permit and visa application processes.", ar: "إرشاد متخصص في إجراءات تصريح العمل وطلبات التأشيرة." },
+  "visa.residence.title": { tr: "İkamet İzni", en: "Residence Permit", ar: "تصريح إقامة" },
+  "visa.residence.desc": { tr: "İkamet izni başvurusu ve yenileme işlemlerinde destek.", en: "Support for residence permit applications and renewals.", ar: "دعم في طلبات تصريح الإقامة والتجديد." },
+  "visa.student.title": { tr: "Öğrenci Vizesi", en: "Student Visa", ar: "تأشيرة طالب" },
+  "visa.student.desc": { tr: "Eğitim vizesi ve kabul süreçlerinde danışmanlık.", en: "Consulting for student visa and admission processes.", ar: "استشارات في إجراءات تأشيرة الطالب والقبول." },
+  "visa.feature.trust": { tr: "Güvenilir Süreç", en: "Trusted Process", ar: "عملية موثوقة" },
+  "visa.feature.fast": { tr: "Hızlı Sonuç", en: "Fast Results", ar: "نتائج سريعة" },
+  "visa.feature.support": { tr: "7/24 Destek", en: "24/7 Support", ar: "دعم على مدار الساعة" },
 
   // Contact
   "contact.title": { tr: "İletişime Geçin", en: "Get In Touch", ar: "تواصل معنا" },
