@@ -12,7 +12,16 @@ const ContactSection = () => {
           <p className="text-muted-foreground max-w-xl mx-auto">{t("contact.subtitle")}</p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-5" onSubmit={(e) => {
+              e.preventDefault();
+              const form = e.target as HTMLFormElement;
+              const name = (form.elements.namedItem("name") as HTMLInputElement)?.value;
+              const email = (form.elements.namedItem("email") as HTMLInputElement)?.value;
+              const phone = (form.elements.namedItem("phone") as HTMLInputElement)?.value;
+              const message = (form.elements.namedItem("message") as HTMLTextAreaElement)?.value;
+              const mailtoLink = `mailto:goldenpasseu@gmail.com?subject=İletişim: ${encodeURIComponent(name)}&body=${encodeURIComponent(`Ad: ${name}\nE-posta: ${email}\nTelefon: ${phone}\n\nMesaj:\n${message}`)}`;
+              window.open(mailtoLink, "_blank");
+            }}>
             <input type="text" placeholder={t("contact.name")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <input type="email" placeholder={t("contact.email")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
