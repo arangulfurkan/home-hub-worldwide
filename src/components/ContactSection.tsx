@@ -22,7 +22,7 @@ const ContactSection = () => {
               const mailtoLink = `mailto:goldenpasseu@gmail.com?subject=İletişim: ${encodeURIComponent(name)}&body=${encodeURIComponent(`Ad: ${name}\nE-posta: ${email}\nTelefon: ${phone}\n\nMesaj:\n${message}`)}`;
               window.open(mailtoLink, "_blank");
             }}>
-            <input type="text" placeholder={t("contact.name")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
+            <input type="text" name="name" required placeholder={t("contact.name")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <input type="email" placeholder={t("contact.email")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
               <input type="tel" placeholder={t("contact.phone")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
