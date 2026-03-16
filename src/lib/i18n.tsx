@@ -25,8 +25,8 @@ const translations: Translations = {
   "services.realestate.desc": { tr: "En uygun fiyatlarla premium mülkleri sizin için buluyoruz.", en: "We find premium properties for you at the best prices.", ar: "نجد لك عقارات متميزة بأفضل الأسعار." },
   "services.consulting.title": { tr: "Yatırım Danışmanlığı", en: "Investment Consulting", ar: "استشارات الاستثمار" },
   "services.consulting.desc": { tr: "Gayrimenkul yatırımlarınız için stratejik danışmanlık hizmeti.", en: "Strategic consulting for your real estate investments.", ar: "استشارات استراتيجية لاستثماراتك العقارية." },
-  "services.management.title": { tr: "Mülk Yönetimi", en: "Property Management", ar: "إدارة الممتلكات" },
-  "services.management.desc": { tr: "Mülklerinizin profesyonel yönetimi ve bakımı.", en: "Professional management and maintenance of your properties.", ar: "إدارة وصيانة احترافية لممتلكاتك." },
+  "services.management.title": { tr: "Süreç Yönetimi", en: "Process Management", ar: "إدارة العمليات" },
+  "services.management.desc": { tr: "Başvuru ve işlem süreçlerinizin profesyonel yönetimi.", en: "Professional management of your application and transaction processes.", ar: "إدارة احترافية لعمليات التقديم والمعاملات الخاصة بك." },
 
   // Properties
   "properties.title": { tr: "Öne Çıkan Mülkler", en: "Featured Properties", ar: "العقارات المميزة" },
