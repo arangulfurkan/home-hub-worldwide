@@ -27,7 +27,7 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <MapPin className="w-5 h-5 text-accent mt-0.5 shrink-0" />
               <div>
-                <div className="font-semibold text-foreground text-sm">Golden Pass EU</div>
+                <div className="font-semibold text-foreground text-sm">Golden Pass EU Danışmanlık</div>
                 <div className="text-muted-foreground text-sm">{t("contact.address")}</div>
               </div>
             </div>
