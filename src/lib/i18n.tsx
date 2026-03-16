@@ -13,8 +13,8 @@ const translations: Translations = {
   "nav.contact": { tr: "İletişim", en: "Contact", ar: "اتصل بنا" },
 
   // Hero
-  "hero.title": { tr: "Hayalinizdeki Mülkü Bulun", en: "Find Your Dream Property", ar: "اعثر على عقار أحلامك" },
-  "hero.subtitle": { tr: "Gayrimenkul ve danışmanlık alanında uzman ekibimizle hayallerinizi gerçeğe dönüştürüyoruz.", en: "We turn your dreams into reality with our expert team in real estate and consulting.", ar: "نحول أحلامك إلى حقيقة مع فريقنا المتخصص في العقارات والاستشارات." },
+  "hero.title": { tr: "Avrupa'da Emlak Yatırımı ile Kalıcı Oturum Fırsatı", en: "Permanent Residency Through Real Estate Investment in Europe", ar: "فرصة الإقامة الدائمة من خلال الاستثمار العقاري في أوروبا" },
+  "hero.subtitle": { tr: "Gayrimenkul ve danışmanlık alanında uzman ekibimizle kalıcı oturum hayaliniz gerçeğe dönüştürüyoruz.", en: "We turn your permanent residency dream into reality with our expert team in real estate and consulting.", ar: "نحول حلم إقامتك الدائمة إلى حقيقة مع فريقنا المتخصص في العقارات والاستشارات." },
   "hero.cta": { tr: "Ücretsiz Danışmanlık", en: "Free Consultation", ar: "استشارة مجانية" },
   "hero.explore": { tr: "Mülkleri Keşfet", en: "Explore Properties", ar: "استكشف العقارات" },
 
@@ -25,8 +25,8 @@ const translations: Translations = {
   "services.realestate.desc": { tr: "En uygun fiyatlarla premium mülkleri sizin için buluyoruz.", en: "We find premium properties for you at the best prices.", ar: "نجد لك عقارات متميزة بأفضل الأسعار." },
   "services.consulting.title": { tr: "Yatırım Danışmanlığı", en: "Investment Consulting", ar: "استشارات الاستثمار" },
   "services.consulting.desc": { tr: "Gayrimenkul yatırımlarınız için stratejik danışmanlık hizmeti.", en: "Strategic consulting for your real estate investments.", ar: "استشارات استراتيجية لاستثماراتك العقارية." },
-  "services.management.title": { tr: "Mülk Yönetimi", en: "Property Management", ar: "إدارة الممتلكات" },
-  "services.management.desc": { tr: "Mülklerinizin profesyonel yönetimi ve bakımı.", en: "Professional management and maintenance of your properties.", ar: "إدارة وصيانة احترافية لممتلكاتك." },
+  "services.management.title": { tr: "Süreç Yönetimi", en: "Process Management", ar: "إدارة العمليات" },
+  "services.management.desc": { tr: "Başvuru ve işlem süreçlerinizin profesyonel yönetimi.", en: "Professional management of your application and transaction processes.", ar: "إدارة احترافية لعمليات التقديم والمعاملات الخاصة بك." },
 
   // Properties
   "properties.title": { tr: "Öne Çıkan Mülkler", en: "Featured Properties", ar: "العقارات المميزة" },
@@ -34,14 +34,14 @@ const translations: Translations = {
   "properties.contact": { tr: "İletişime Geçin", en: "Contact Us", ar: "اتصل بنا" },
 
   // Visa Consulting
-  "visa.title": { tr: "Vize Danışmanlığı", en: "Visa Consulting", ar: "استشارات التأشيرات" },
-  "visa.subtitle": { tr: "Tüm vize süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your visa processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات التأشيرات الخاصة بك." },
+  "visa.title": { tr: "Kalıcı Oturum Danışmanlığı", en: "Permanent Residency Consulting", ar: "استشارات الإقامة الدائمة" },
+  "visa.subtitle": { tr: "Tüm oturum süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your residency processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات الإقامة الخاصة بك." },
   "visa.tourist.title": { tr: "Turist Vizesi", en: "Tourist Visa", ar: "تأشيرة سياحية" },
   "visa.tourist.desc": { tr: "Seyahat planlarınız için hızlı ve kolay turist vizesi başvuru desteği.", en: "Fast and easy tourist visa application support for your travel plans.", ar: "دعم سريع وسهل لطلبات تأشيرة السياحة لخطط سفرك." },
   "visa.golden.title": { tr: "Altın Vize", en: "Golden Visa", ar: "التأشيرة الذهبية" },
   "visa.golden.desc": { tr: "Yatırım yoluyla altın vize ve oturma izni başvuru süreçlerinde uzman rehberlik.", en: "Expert guidance on golden visa and residence permit through investment programs.", ar: "إرشاد متخصص في برامج التأشيرة الذهبية والإقامة عن طريق الاستثمار." },
-  "visa.residence.title": { tr: "İkamet İzni", en: "Residence Permit", ar: "تصريح إقامة" },
-  "visa.residence.desc": { tr: "İkamet izni başvurusu ve yenileme işlemlerinde destek.", en: "Support for residence permit applications and renewals.", ar: "دعم في طلبات تصريح الإقامة والتجديد." },
+  "visa.residence.title": { tr: "Kalıcı Oturum", en: "Permanent Residency", ar: "الإقامة الدائمة" },
+  "visa.residence.desc": { tr: "Kalıcı oturum başvurusu ve yenileme işlemlerinde destek.", en: "Support for permanent residency applications and renewals.", ar: "دعم في طلبات الإقامة الدائمة والتجديد." },
   "visa.student.title": { tr: "Öğrenci Vizesi", en: "Student Visa", ar: "تأشيرة طالب" },
   "visa.student.desc": { tr: "Eğitim vizesi ve kabul süreçlerinde danışmanlık.", en: "Consulting for student visa and admission processes.", ar: "استشارات في إجراءات تأشيرة الطالب والقبول." },
   "visa.feature.trust": { tr: "Güvenilir Süreç", en: "Trusted Process", ar: "عملية موثوقة" },
