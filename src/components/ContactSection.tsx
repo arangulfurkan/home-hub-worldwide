@@ -27,7 +27,7 @@ const ContactSection = () => {
               <input type="email" name="email" required placeholder={t("contact.email")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
               <input type="tel" name="phone" placeholder={t("contact.phone")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
             </div>
-            <textarea rows={5} placeholder={t("contact.message")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm resize-none" />
+            <textarea rows={5} name="message" required placeholder={t("contact.message")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm resize-none" />
             <button type="submit" className="w-full px-8 py-3.5 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-colors text-sm tracking-wide">
               {t("contact.send")}
             </button>

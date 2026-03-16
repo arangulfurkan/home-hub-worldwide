@@ -11,7 +11,7 @@ const Footer = () => {
           <span className="text-muted-foreground text-xs font-body ms-2">{t("footer.tagline")}</span>
         </div>
         <div className="text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Golden Pass EU. {t("footer.rights")}
+          © {new Date().getFullYear()} Golden Pass EU Danışmanlık. {t("footer.rights")}
         </div>
       </div>
     </footer>
