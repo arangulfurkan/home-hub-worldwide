@@ -34,8 +34,8 @@ const translations: Translations = {
   "properties.contact": { tr: "İletişime Geçin", en: "Contact Us", ar: "اتصل بنا" },
 
   // Visa Consulting
-  "visa.title": { tr: "Vize Danışmanlığı", en: "Visa Consulting", ar: "استشارات التأشيرات" },
-  "visa.subtitle": { tr: "Tüm vize süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your visa processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات التأشيرات الخاصة بك." },
+  "visa.title": { tr: "Kalıcı Oturum Danışmanlığı", en: "Permanent Residency Consulting", ar: "استشارات الإقامة الدائمة" },
+  "visa.subtitle": { tr: "Tüm oturum süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your residency processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات الإقامة الخاصة بك." },
   "visa.tourist.title": { tr: "Turist Vizesi", en: "Tourist Visa", ar: "تأشيرة سياحية" },
   "visa.tourist.desc": { tr: "Seyahat planlarınız için hızlı ve kolay turist vizesi başvuru desteği.", en: "Fast and easy tourist visa application support for your travel plans.", ar: "دعم سريع وسهل لطلبات تأشيرة السياحة لخطط سفرك." },
   "visa.golden.title": { tr: "Altın Vize", en: "Golden Visa", ar: "التأشيرة الذهبية" },
