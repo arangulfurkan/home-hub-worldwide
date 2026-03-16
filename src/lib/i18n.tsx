@@ -13,8 +13,8 @@ const translations: Translations = {
   "nav.contact": { tr: "İletişim", en: "Contact", ar: "اتصل بنا" },
 
   // Hero
-  "hero.title": { tr: "Hayalinizdeki Mülkü Bulun", en: "Find Your Dream Property", ar: "اعثر على عقار أحلامك" },
-  "hero.subtitle": { tr: "Gayrimenkul ve danışmanlık alanında uzman ekibimizle hayallerinizi gerçeğe dönüştürüyoruz.", en: "We turn your dreams into reality with our expert team in real estate and consulting.", ar: "نحول أحلامك إلى حقيقة مع فريقنا المتخصص في العقارات والاستشارات." },
+  "hero.title": { tr: "Avrupa'da Emlak Yatırımı ile Kalıcı Oturum Fırsatı", en: "Permanent Residency Through Real Estate Investment in Europe", ar: "فرصة الإقامة الدائمة من خلال الاستثمار العقاري في أوروبا" },
+  "hero.subtitle": { tr: "Gayrimenkul ve danışmanlık alanında uzman ekibimizle kalıcı oturum hayaliniz gerçeğe dönüştürüyoruz.", en: "We turn your permanent residency dream into reality with our expert team in real estate and consulting.", ar: "نحول حلم إقامتك الدائمة إلى حقيقة مع فريقنا المتخصص في العقارات والاستشارات." },
   "hero.cta": { tr: "Ücretsiz Danışmanlık", en: "Free Consultation", ar: "استشارة مجانية" },
   "hero.explore": { tr: "Mülkleri Keşfet", en: "Explore Properties", ar: "استكشف العقارات" },
 
