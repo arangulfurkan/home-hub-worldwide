@@ -27,17 +27,17 @@ const ContactSection = () => {
             <div className="flex items-start gap-4">
               <MapPin className="w-5 h-5 text-accent mt-0.5 shrink-0" />
               <div>
-                <div className="font-semibold text-foreground text-sm">ATLAS</div>
+                <div className="font-semibold text-foreground text-sm">Golden Pass EU</div>
                 <div className="text-muted-foreground text-sm">{t("contact.address")}</div>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Phone className="w-5 h-5 text-accent mt-0.5 shrink-0" />
-              <div className="text-muted-foreground text-sm">+90 212 123 45 67</div>
+              <div className="text-muted-foreground text-sm">+371 20810111</div>
             </div>
             <div className="flex items-start gap-4">
               <Mail className="w-5 h-5 text-accent mt-0.5 shrink-0" />
-              <div className="text-muted-foreground text-sm">info@atlas-realestate.com</div>
+              <div className="text-muted-foreground text-sm">goldenpasseu@gmail.com</div>
             </div>
           </div>
         </div>

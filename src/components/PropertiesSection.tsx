@@ -1,17 +1,20 @@
 import { useI18n } from "@/lib/i18n";
-import { Bed, Bath, Maximize } from "lucide-react";
 import prop1 from "@/assets/property-1.jpg";
 import prop2 from "@/assets/property-2.jpg";
 import prop3 from "@/assets/property-3.jpg";
 
 const properties = [
-  { img: prop1, price: "$450,000", beds: 3, baths: 2, area: 185, location: { tr: "Beşiktaş, İstanbul", en: "Beşiktaş, Istanbul", ar: "بشكتاش، إسطنبول" } },
-  { img: prop2, price: "$320,000", beds: 4, baths: 3, area: 240, location: { tr: "Kadıköy, İstanbul", en: "Kadıköy, Istanbul", ar: "قاضي كوي، إسطنبول" } },
-  { img: prop3, price: "$680,000", beds: 5, baths: 4, area: 310, location: { tr: "Sarıyer, İstanbul", en: "Sarıyer, Istanbul", ar: "صاري يار، إسطنبول" } },
+  { img: prop1, location: { tr: "Riga Merkez, Letonya", en: "Riga Center, Latvia", ar: "وسط ريغا، لاتفيا" } },
+  { img: prop2, location: { tr: "Jūrmala, Letonya", en: "Jūrmala, Latvia", ar: "يورمالا، لاتفيا" } },
+  { img: prop3, location: { tr: "Vecriga, Letonya", en: "Old Riga, Latvia", ar: "ريغا القديمة، لاتفيا" } },
 ];
 
 const PropertiesSection = () => {
   const { t, language } = useI18n();
+
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <section id="properties" className="py-24 bg-secondary/50">
@@ -22,20 +25,17 @@ const PropertiesSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map((prop, i) => (
-            <div key={i} className="bg-card rounded-lg overflow-hidden border border-border hover:shadow-xl transition-shadow group">
+            <div
+              key={i}
+              onClick={scrollToContact}
+              className="bg-card rounded-lg overflow-hidden border border-border hover:shadow-xl transition-shadow group cursor-pointer"
+            >
               <div className="relative h-56 overflow-hidden">
                 <img src={prop.img} alt="Property" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute top-4 start-4 bg-accent text-accent-foreground px-3 py-1 rounded text-sm font-semibold">
-                  {prop.price}
-                </div>
               </div>
-              <div className="p-5">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-1">{prop.location[language]}</h3>
-                <div className="flex items-center gap-4 text-muted-foreground text-sm mt-3">
-                  <span className="flex items-center gap-1"><Bed className="w-4 h-4" /> {prop.beds} {t("properties.beds")}</span>
-                  <span className="flex items-center gap-1"><Bath className="w-4 h-4" /> {prop.baths} {t("properties.baths")}</span>
-                  <span className="flex items-center gap-1"><Maximize className="w-4 h-4" /> {prop.area} {t("properties.area")}</span>
-                </div>
+              <div className="p-5 flex items-center justify-between">
+                <h3 className="font-display text-lg font-semibold text-foreground">{prop.location[language]}</h3>
+                <span className="text-accent text-sm font-medium hover:underline">{t("properties.contact")}</span>
               </div>
             </div>
           ))}

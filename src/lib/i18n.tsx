@@ -25,27 +25,21 @@ const translations: Translations = {
   "services.realestate.desc": { tr: "En uygun fiyatlarla premium mülkleri sizin için buluyoruz.", en: "We find premium properties for you at the best prices.", ar: "نجد لك عقارات متميزة بأفضل الأسعار." },
   "services.consulting.title": { tr: "Yatırım Danışmanlığı", en: "Investment Consulting", ar: "استشارات الاستثمار" },
   "services.consulting.desc": { tr: "Gayrimenkul yatırımlarınız için stratejik danışmanlık hizmeti.", en: "Strategic consulting for your real estate investments.", ar: "استشارات استراتيجية لاستثماراتك العقارية." },
-  "services.legal.title": { tr: "Hukuki Danışmanlık", en: "Legal Consulting", ar: "الاستشارات القانونية" },
-  "services.legal.desc": { tr: "Mülk alım-satım sürecinde hukuki destek sağlıyoruz.", en: "We provide legal support during the property buying and selling process.", ar: "نقدم الدعم القانوني خلال عملية شراء وبيع العقارات." },
   "services.management.title": { tr: "Mülk Yönetimi", en: "Property Management", ar: "إدارة الممتلكات" },
   "services.management.desc": { tr: "Mülklerinizin profesyonel yönetimi ve bakımı.", en: "Professional management and maintenance of your properties.", ar: "إدارة وصيانة احترافية لممتلكاتك." },
 
   // Properties
   "properties.title": { tr: "Öne Çıkan Mülkler", en: "Featured Properties", ar: "العقارات المميزة" },
   "properties.subtitle": { tr: "Seçkin mülklerimizi keşfedin.", en: "Discover our exclusive properties.", ar: "اكتشف عقاراتنا الحصرية." },
-  "properties.viewAll": { tr: "Tümünü Gör", en: "View All", ar: "عرض الكل" },
-  "properties.beds": { tr: "Yatak", en: "Beds", ar: "غرف" },
-  "properties.baths": { tr: "Banyo", en: "Baths", ar: "حمامات" },
-  "properties.area": { tr: "m²", en: "m²", ar: "م²" },
-  "properties.details": { tr: "Detaylar", en: "Details", ar: "التفاصيل" },
+  "properties.contact": { tr: "İletişime Geçin", en: "Contact Us", ar: "اتصل بنا" },
 
   // Visa Consulting
   "visa.title": { tr: "Vize Danışmanlığı", en: "Visa Consulting", ar: "استشارات التأشيرات" },
   "visa.subtitle": { tr: "Tüm vize süreçlerinizde profesyonel destek sunuyoruz.", en: "We provide professional support for all your visa processes.", ar: "نقدم دعمًا احترافيًا لجميع إجراءات التأشيرات الخاصة بك." },
   "visa.tourist.title": { tr: "Turist Vizesi", en: "Tourist Visa", ar: "تأشيرة سياحية" },
   "visa.tourist.desc": { tr: "Seyahat planlarınız için hızlı ve kolay turist vizesi başvuru desteği.", en: "Fast and easy tourist visa application support for your travel plans.", ar: "دعم سريع وسهل لطلبات تأشيرة السياحة لخطط سفرك." },
-  "visa.work.title": { tr: "Çalışma Vizesi", en: "Work Visa", ar: "تأشيرة عمل" },
-  "visa.work.desc": { tr: "Çalışma izni ve vize başvuru süreçlerinde uzman rehberlik.", en: "Expert guidance on work permit and visa application processes.", ar: "إرشاد متخصص في إجراءات تصريح العمل وطلبات التأشيرة." },
+  "visa.golden.title": { tr: "Altın Vize", en: "Golden Visa", ar: "التأشيرة الذهبية" },
+  "visa.golden.desc": { tr: "Yatırım yoluyla altın vize ve oturma izni başvuru süreçlerinde uzman rehberlik.", en: "Expert guidance on golden visa and residence permit through investment programs.", ar: "إرشاد متخصص في برامج التأشيرة الذهبية والإقامة عن طريق الاستثمار." },
   "visa.residence.title": { tr: "İkamet İzni", en: "Residence Permit", ar: "تصريح إقامة" },
   "visa.residence.desc": { tr: "İkamet izni başvurusu ve yenileme işlemlerinde destek.", en: "Support for residence permit applications and renewals.", ar: "دعم في طلبات تصريح الإقامة والتجديد." },
   "visa.student.title": { tr: "Öğrenci Vizesi", en: "Student Visa", ar: "تأشيرة طالب" },
@@ -62,7 +56,7 @@ const translations: Translations = {
   "contact.phone": { tr: "Telefon", en: "Phone", ar: "الهاتف" },
   "contact.message": { tr: "Mesajınız", en: "Your Message", ar: "رسالتك" },
   "contact.send": { tr: "Mesaj Gönder", en: "Send Message", ar: "إرسال الرسالة" },
-  "contact.address": { tr: "İstanbul, Türkiye", en: "Istanbul, Turkey", ar: "إسطنبول، تركيا" },
+  "contact.address": { tr: "Riga, Letonya", en: "Riga, Latvia", ar: "ريغا، لاتفيا" },
 
   // Footer
   "footer.rights": { tr: "Tüm hakları saklıdır.", en: "All rights reserved.", ar: "جميع الحقوق محفوظة." },

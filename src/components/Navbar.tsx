@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <button onClick={() => scrollTo("home")} className="font-display text-xl font-bold text-primary tracking-wide">
-          ATLAS<span className="text-accent">.</span>
+          Golden Pass EU<span className="text-accent">.</span>
         </button>
 
         {/* Desktop nav */}

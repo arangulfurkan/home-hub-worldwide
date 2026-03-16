@@ -1,9 +1,9 @@
 import { useI18n } from "@/lib/i18n";
-import { Plane, FileCheck, Globe, Clock, ShieldCheck, Users } from "lucide-react";
+import { Plane, Award, Globe, Clock, ShieldCheck, Users } from "lucide-react";
 
 const visaServices = [
   { key: "tourist", icon: Plane },
-  { key: "work", icon: FileCheck },
+  { key: "golden", icon: Award },
   { key: "residence", icon: Globe },
   { key: "student", icon: Users },
 ];
