@@ -24,8 +24,8 @@ const ContactSection = () => {
             }}>
             <input type="text" name="name" required placeholder={t("contact.name")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <input type="email" placeholder={t("contact.email")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
-              <input type="tel" placeholder={t("contact.phone")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
+              <input type="email" name="email" required placeholder={t("contact.email")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
+              <input type="tel" name="phone" placeholder={t("contact.phone")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm" />
             </div>
             <textarea rows={5} placeholder={t("contact.message")} className="w-full px-4 py-3 bg-card border border-border rounded-md text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 text-sm resize-none" />
             <button type="submit" className="w-full px-8 py-3.5 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-colors text-sm tracking-wide">
